@@ -1,0 +1,205 @@
+problem_name = Farmer_Fox
+Int_Solv_Client (Version 1)
+Farmer and Fox; 1.0
+
+Step 0, Depth 0
+CURRENT_STATE = LEFT: boat & farmer fox chicken grain
+RIGHT:
+2: Cross the river with chicken
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 2
+Operator 2 selected.
+
+Step 1, Depth 1
+CURRENT_STATE = LEFT: fox grain
+RIGHT: boat & farmer chicken
+0: Cross the river with boat & farmer
+2: Cross the river with chicken
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 0
+Operator 0 selected.
+
+Step 2, Depth 2
+CURRENT_STATE = LEFT: fox grain boat & farmer
+RIGHT: chicken
+0: Cross the river with boat & farmer
+1: Cross the river with fox
+3: Cross the river with grain
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 3
+Operator 3 selected.
+
+Step 3, Depth 3
+CURRENT_STATE = LEFT: fox
+RIGHT: chicken boat & farmer grain
+2: Cross the river with chicken
+3: Cross the river with grain
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 2
+Operator 2 selected.
+
+Step 4, Depth 4
+CURRENT_STATE = LEFT: fox boat & farmer chicken
+RIGHT: grain
+1: Cross the river with fox
+2: Cross the river with chicken
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 1
+Operator 1 selected.
+
+Step 5, Depth 5
+CURRENT_STATE = LEFT: chicken
+RIGHT: grain boat & farmer fox
+0: Cross the river with boat & farmer
+1: Cross the river with fox
+3: Cross the river with grain
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 0
+Operator 0 selected.
+
+Step 6, Depth 6
+CURRENT_STATE = LEFT: chicken boat & farmer
+RIGHT: grain fox
+0: Cross the river with boat & farmer
+2: Cross the river with chicken
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 2
+Operator 2 selected.
+
+Step 7, Depth 7
+CURRENT_STATE = LEFT:
+RIGHT: grain fox boat & farmer chicken
+CONGRATULATIONS!
+You have solved the problem by reaching a goal state.
+Do you wish to continue exploring?
+
+Y or N? >> N
+The session is finished.
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+
+Welcome to ItrDFS
+Initial State:
+LEFT: boat & farmer fox chicken grain
+RIGHT:
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now: LEFT: fox grain
+RIGHT: boat & farmer chicken
+len(OPEN)=1; len(CLOSED)=1; COUNT = 1
+OPEN is now: LEFT: fox grain boat & farmer
+RIGHT: chicken , LEFT: fox grain boat & farmer
+RIGHT: chicken
+len(OPEN)=2; len(CLOSED)=2; COUNT = 2
+OPEN is now: LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox grain boat & farmer
+RIGHT: chicken
+len(OPEN)=7; len(CLOSED)=3; COUNT = 3
+OPEN is now: LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox grain boat & farmer
+RIGHT: chicken
+len(OPEN)=10; len(CLOSED)=4; COUNT = 4
+OPEN is now: LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox grain boat & farmer
+RIGHT: chicken
+len(OPEN)=14; len(CLOSED)=5; COUNT = 5
+OPEN is now: LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox grain boat & farmer
+RIGHT: chicken
+len(OPEN)=25; len(CLOSED)=6; COUNT = 6
+OPEN is now: LEFT:
+RIGHT: fox grain boat & farmer chicken , LEFT:
+RIGHT: fox grain boat & farmer chicken , LEFT:
+RIGHT: fox grain boat & farmer chicken , LEFT:
+RIGHT: fox grain boat & farmer chicken , LEFT:
+RIGHT: fox grain boat & farmer chicken , LEFT:
+RIGHT: fox grain boat & farmer chicken , LEFT:
+RIGHT: fox grain boat & farmer chicken , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer
+RIGHT: fox grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken boat & farmer fox
+RIGHT: grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: chicken
+RIGHT: fox boat & farmer grain , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain boat & farmer chicken
+RIGHT: fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: grain
+RIGHT: chicken boat & farmer fox , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox
+RIGHT: chicken boat & farmer grain , LEFT: fox grain boat & farmer
+RIGHT: chicken
+len(OPEN)=31; len(CLOSED)=7; COUNT = 7
+Congratulations on successfully helping the farmer with the task
+Solution path:
+LEFT: boat & farmer fox chicken grain
+RIGHT:
+LEFT: fox grain
+RIGHT: boat & farmer chicken
+LEFT: fox grain boat & farmer
+RIGHT: chicken
+LEFT: grain
+RIGHT: chicken boat & farmer fox
+LEFT: grain boat & farmer chicken
+RIGHT: fox
+LEFT: chicken
+RIGHT: fox boat & farmer grain
+LEFT: chicken boat & farmer
+RIGHT: fox grain
+LEFT:
+RIGHT: fox grain boat & farmer chicken
+Length of solution path found: 7 edges
+7 states expanded.
+MAX_OPEN_LENGTH = 31
