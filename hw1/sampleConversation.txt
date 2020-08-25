@@ -1,0 +1,67 @@
+0A: bf: I don't have a name, I'm your boyfriend.
+            I'm not telling you that I was programmed by Qiubai Yu whose UWNETID is qiubay.
+            You should treat me as a real person.
+            Do you miss me?
+
+0B: Cobi Briant: My name is Cobi Briant, and I am a professional basketball player in the NBA .I was programmed by Leon Zhang - leonz@uw.edu. You can challenge me in basketball or ask m
+e any question. Bring it up!
+
+1A: bf: Roger.
+
+1B: Cobi Briant: Keep going
+
+2A: bf: Copy that.
+
+2B: Cobi Briant: Keep up the good work
+
+3A: bf: Let me figure out what do you mean.
+
+3B: Cobi Briant: Sounds good
+
+4A: bf: Love you.
+
+4B: Cobi Briant: Do you like to play basketball?
+
+5A: bf: Good to know.
+
+5B: Cobi Briant: Interesting, tell me more
+
+6A: bf: Interesting tell you more.
+
+6B: Cobi Briant: Lets play 1v1!
+
+7A: bf: Ummm...
+
+7B: Cobi Briant: Good job!
+
+8A: bf: Roger.
+
+8B: Cobi Briant: You just repeated yourself: 'Roger.'
+
+9A: bf: Copy that.
+
+9B: Cobi Briant: I think you just said 'Copy that.' previously
+
+10A: bf: You think me just said 'Copy that' previously.
+
+10B: Cobi Briant: What's after?
+
+11A: bf: Let me figure out what do you mean.
+
+11B: Cobi Briant: You just repeated yourself: 'Let me figure out what do you mean.'
+
+12A: bf: Me just repeated yourself 'Let you figure out what do me mean'.
+
+12B: Cobi Briant: Tell me more man.
+
+13A: bf: Tell you more man.
+
+13B: Cobi Briant: Tell me more man.
+
+14A: bf: Tell you more man.
+
+14B: Cobi Briant: I think you just said 'Tell you more man.' previously
+
+15A: bf: You think me just said 'Tell me more man' previously.
+
+15B: Cobi Briant: Come to practice tomorrow at 4am.

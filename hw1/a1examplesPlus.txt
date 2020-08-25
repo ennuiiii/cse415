@@ -1,0 +1,39 @@
+five_x_cubed_plus_2(3) -> 137
+five_x_cubed_plus_2(22) -> 53242
+five_x_cubed_plus_2(4) -> 322
+
+triple_up([1,2,4,5,5,5,5,5,523,'a']) -> [[1, 2, 4], [5, 5, 5], [5, 5, 523], ['a']]
+triple_up(['asdfs',111,'qaqaq',1]) -> [['asdfs', 111, 'qaqaq'], [1]]
+triple_up([2,5,1.5,100,3,8,7,1,1,0,-2]) -> [[2, 5, 1.5], [100, 3, 8], [7, 1, 1], [0, -2]]
+
+mystery_code("abc Iz th1s Secure? n0, no, 9!") -> 'VWX dU OC1N nZXPMZ? I0, IJ, 9!'
+mystery_code("abc de 1fs2 OPQURS????") -> 'VWX YZ 1AN2 jklpmn????'
+
+future_tense(['Yesterday', 'I', 'ate', 'pasta', 'and', 'today', 'I', 'am', 'having', 'soup'])
+->
+['Tomorrow',
+ 'I',
+ 'will',
+ 'eat',
+ 'pasta',
+ 'and',
+ 'tomorrow',
+ 'I',
+ 'will',
+ 'be',
+ 'having',
+ 'soup']
+
+future_tense(['Yesterday', 'I', 'went', 'shopping', 'and', 'today', 'I', 'have', 'soup'])
+->
+['Tomorrow',
+ 'I',
+ 'will',
+ 'go',
+ 'shopping',
+ 'and',
+ 'tomorrow',
+ 'I',
+ 'will',
+ 'have',
+ 'soup']

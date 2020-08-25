@@ -1,0 +1,59 @@
+>>> Boyfriend_bot()
+I don't have a name, I'm your boyfriend.
+            I'm not telling you that I was programmed by Qiubai Yu whose UWNETID is qiubay.
+            You should treat me as a real person.
+            Do you miss me?
+TYPE HERE:>> no
+Why?
+TYPE HERE:>> because I'm hungry
+Hotpot? Sushi? Barbeque? Steak? What are you planning to eat?
+TYPE HERE:>> Hotpot
+I know a place that has very good hotpot. Do you wanna try it tomorrow?
+TYPE HERE:>> yes sure
+Great!
+TYPE HERE:>>
+I just wanna let you know that I miss you.
+TYPE HERE:>> you are so sweet
+Someone did say that to me previously.
+TYPE HERE:>> Someone????
+I am doing sport, call you later.
+TYPE HERE:>> I like to play tennis.
+I'm glad to know that.
+TYPE HERE:>>
+
+MEMORY FEATURE:
+REMEMBER WHAT SHE LIKES TO DO. WHEN THERE'S NO TOPIC TO START WITH, FIND A TOPIC
+THE GIRL LIKES AND TRY TO PLEASE THE GIRL.(ALSO WHERE I USED THE RANDOM FEATURE)
+
+I remember that you like like to play tennis? Do you wanna do that?
+TYPE HERE:>> great
+Are you hungry?
+TYPE HERE:>> no
+Why?
+TYPE HERE:>> just because
+Let me figure out what do you mean.
+TYPE HERE:>> fine
+Love you.
+TYPE HERE:>> bye
+Have a good rest of your day!
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+RANDOM FEATURE:
+SINCE I PUT WHAT THE GIRL LIKES IN MEMORY. WHEN THERE'S NOTHING TO TALK ABOUT, RANDOMLY SELECT
+A THING THAT SHE LIKES AND START THE CONVERSATION.
+
+TYPE HERE:>> I like doing sports.
+I'm glad to know that.
+TYPE HERE:>> I like you.
+I'm glad to know that.
+TYPE HERE:>> I like to eat sushi.
+I'm glad to know that.
+TYPE HERE:>>
+I remember that you like like doing sports? Do you wanna do that?
+TYPE HERE:>>
+I remember that you like like me? Do you wanna do that?
+TYPE HERE:>>
+I remember that you like like doing sports? Do you wanna do that?
+TYPE HERE:>>
